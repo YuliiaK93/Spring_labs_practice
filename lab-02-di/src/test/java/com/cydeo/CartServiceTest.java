@@ -15,8 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 
-import static org.mockito.Mockito.when;
-
 @RunWith( SpringRunner.class )
 @ContextConfiguration(classes = ConfigApp.class)
 public class CartServiceTest {
